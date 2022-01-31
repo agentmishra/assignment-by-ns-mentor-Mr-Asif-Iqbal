@@ -17,7 +17,7 @@ function countVowel(str) {
     
     // vowelsCount count = str.match(/[aeiou]/gi).length;
     
-        let Vowels = 'aAeEiIoOuU';
+        const Vowels = 'aAeEiIoOuU';
         let vowelsCount = 0;
         for(let i = 0; i < str.length ; i++) {
            if (Vowels.indexOf(str[i]) !== -1) {
